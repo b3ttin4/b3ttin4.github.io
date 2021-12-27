@@ -1,0 +1,30 @@
+email:
+  id: 
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+twitter:
+  id: 'Bettin4Hein'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'b3ttin4'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
+
+linkedin:
+  id: 'bettina-hein'
+  href: 'https://linkedin.com/in/'
+  title: 'Linkedin'
+  fa-icon: 'fa-linkedin'
+
+gscholar:
+  id: ''
+  href: 'https://scholar.google.com/citations?user=6BQ_8CYAAAAJ&hl=en&oi=ao'
+  title: 'Google Scholar'
+  fa-icon: 'fa-google'
+

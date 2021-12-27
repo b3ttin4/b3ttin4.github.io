@@ -38,6 +38,22 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+                
+        {% if site.data.social-media %}
+        <div id="social-media">
+            <center>
+            {% assign sm = site.data.social-media %}
+            {% for entry in sm %}
+                {% assign key = entry | first %}
+                {% if sm[key].id %}
+                    <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa-brands {{ sm[key].fa-icon }} | escape" style=font-size:30px;></i>&emsp;</a>
+                {% endif %}
+            {% endfor %}
+            </center>
+        </div>
+        {% endif %}
+
+
       </header>
       <section>
 
@@ -45,7 +61,16 @@
 
       </section>
       <footer>
-        <p> The project is called github-metadata {{site.github.is_user_page}}</p>
+        
+
+
+<!--         <ul>
+          <li><a rel="me" href="https://www.linkedin.com/in/{{ site.linkedin_username | escape }}" title="{{ site.linkedin_username | escape }}">Linkedin</a></li>
+          <li><a rel="me" href="https://github.com/{{ site.github_username | escape }}" title="{{ site.github_username | escape }}">Github</a></li>
+          <li><a rel="me" href="https://twitter.com/{{ site.twitter_username | escape }}" title="{{ site.twitter_username | escape }}">Twitter</a></li>
+          <li><a rel="me" href="https://scholar.google.com/citations?user=6BQ_8CYAAAAJ&hl=en&oi=ao{{ site.gscholar_username | escape }}" title="{{ site.gscholar_username | escape }}">Google Scholar</a></li>
+        </ul> -->
+
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
