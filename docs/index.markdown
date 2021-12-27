@@ -7,5 +7,8 @@ layout: default
 ---
 
 
+# About me
 
-Hello, I am Bettina. I am currently working as a Postdoctoral Researcher in Computational Neuroscience at [Columbia University](https://zuckermaninstitute.columbia.edu/). I am interested in how the brain develops and I am using a combination of mathematical modeling and data analysis to study this question.
+Hello, I am Bettina.  <br/>
+I am currently working as a Postdoctoral Researcher in Computational Neuroscience at [Columbia University](https://zuckermaninstitute.columbia.edu/). I am using mathematical modeling and data analysis to study how the brain develops. 
+
