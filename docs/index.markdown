@@ -12,3 +12,9 @@ layout: default
 Hello, I am Bettina.  <br/>
 I am currently working as a Postdoctoral Researcher in Computational Neuroscience at [Columbia University](https://zuckermaninstitute.columbia.edu/). I am using mathematical modeling and data analysis to study how the brain develops. 
 
+
+# Projects
+...
+
+# Experience
+...

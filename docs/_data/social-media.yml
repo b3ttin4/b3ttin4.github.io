@@ -4,12 +4,6 @@ email:
   title: 'Email'
   fa-icon: 'fa-envelope-square'
 
-twitter:
-  id: 'Bettin4Hein'
-  href: 'https://www.twitter.com/'
-  title: 'Twitter'
-  fa-icon: 'fa-twitter-square'
-
 github:
   id: 'b3ttin4'
   href: 'https://github.com/'
@@ -27,4 +21,10 @@ gscholar:
   href: 'https://scholar.google.com/citations?user=6BQ_8CYAAAAJ&hl=en&oi=ao'
   title: 'Google Scholar'
   fa-icon: 'fa-google'
+
+twitter:
+  id: 'Bettin4Hein'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
 
