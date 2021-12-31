@@ -33,9 +33,11 @@ show_downloads: true
 google_analytics:
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: TaylanTatli/Moon
+#theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
